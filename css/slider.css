@@ -1,0 +1,145 @@
+body{
+    background-color: #000;
+}
+h3{
+    color: #1C1B31;
+    font-family: Gotham;
+    font-size: 64px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0;
+}
+h5{
+    color: #1C1B31;
+    font-family: Gotham;
+    font-size: 36px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0;
+}
+p{
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 0;
+    color: #000;
+    font-family: Gotham;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 1920px;
+    height: 958px;
+    padding: 155px 0px 192px 96px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 92px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+.textAndSliderContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 92px;
+}
+.textContainer{
+    display: flex;
+    height: 471px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    background: #FFF;
+}
+.swiperAndButtons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.swiper{
+    display: flex;
+    width: 439px;
+    height: 12px;
+    padding-right: 0px;
+    align-items: center;
+    border-radius: 5px;
+    background: #8E8C99;
+    position: relative;
+}
+.swiperBar{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    width: 25%;
+    height: 12px;
+    padding-right: 0px;
+    align-items: center;
+    border-radius: 5px;
+    background: #1C182E;
+}
+
+.swiperBar:hover{
+    transform: translateX(100%);
+}
+
+
+
+.button{
+    background-color: #8E8C99;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+.buttonDisabled{
+    background-color: #D9D9D9;
+    cursor: default;
+}
+
+.chevron{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    min-width: 16px;
+    min-height: 16px;
+    padding: 0.555px 6.427px 0px 3.901px;
+    align-items: flex-start;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    opacity: 0.75;
+    color: #FFFFFF;
+    z-index: 2;
+}
+.sliderContainer{
+    overflow: hidden;
+}
+.imgContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 21px;
+    /* overflow: hidden; */
+}
+.sliderImg{
+    display: flex;
+    border-radius: 20px;
+    width: 600px;
+    height: 600px;
+    max-width: 620px;
+    max-height: 600px;
+    padding-right: 0px;
+    align-items: flex-start;
+}
